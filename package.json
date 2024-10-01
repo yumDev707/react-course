@@ -1,4 +1,7 @@
 {
   "name": "react-course",
-  "packageManager": "yarn@4.4.1"
+  "packageManager": "yarn@4.4.1",
+  "devDependencies": {
+    "@types/jest": "^29.5.13"
+  }
 }
