@@ -5,3 +5,22 @@ html, body {
     font-size: 1.3rem;
     padding: 0.5rem;
 }
+
+button {
+    width: 200px;
+    height: 75px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: auto;
+    margin: auto;
+}
+
+div.button-container {
+    margin-top: 50px;
+    button {
+        width: 80px;
+        height: 80px;
+        font-size: 1rem;
+    }
+}
