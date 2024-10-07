@@ -6,7 +6,7 @@ const getGretting = () => {
 }
 
 const newMsg = {
-    title: 'Prueba de variable en HTML.', 
+    // title: 'Prueba de variable en HTML.', 
     main: 'Jenn'
 }
 
@@ -14,8 +14,9 @@ export const FirstApp = ({title, subtitle, name}) => {
     return (
         //Fragmento implícito, siempre necesario. De esta forma no necesitamos importarlo.
         <>
-            <div>My first app using React. :)</div>
-            <p>Yay!</p>
+            <h1 data-testid="test-title">{title}</h1>
+            <div>My first app using React</div>
+            {/* <p>Yay!</p> */}
             <p>{JSON.stringify(newMsg)}</p>
             <p>{getGretting()}</p>
             <p>{title}</p>
@@ -31,6 +32,7 @@ FirstApp.propTypes = {
 }
 
 FirstApp.defaultProps = {
-    subtitle: 'No subtitle... and this is a string!',
-    name: 'Jeeeenn'
+    subtitle: 3,
+    name: 'Jeeeenn',
+    // title: 'No hay título'
 }

@@ -8,10 +8,10 @@ import './styles.css';
 
 ReactDom.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <HelloWorldApp />
+        {/* <HelloWorldApp /> */}
         {/* De esta forma enviamos prop (properties). El valor subtitle envía núms enteros. */}
         {/* <FirstApp title="It is Yum!" subtitle={123}/> */}
-        <FirstApp title='Required title'/>
-        <CounterApp value={3}/>
+        {/* <FirstApp /> */}
+        <CounterApp value={100}/>
     </React.StrictMode>
 );
