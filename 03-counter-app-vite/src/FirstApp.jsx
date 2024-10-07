@@ -14,7 +14,7 @@ export const FirstApp = ({title, subtitle, name}) => {
     return (
         //Fragmento implícito, siempre necesario. De esta forma no necesitamos importarlo.
         <>
-            <h1>{title}</h1>
+            <h1 data-testid="test-title">{title}</h1>
             <div>My first app using React</div>
             {/* <p>Yay!</p> */}
             <p>{JSON.stringify(newMsg)}</p>

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on FirstApp File Should do match with snapshot 1`] = `
+<div>
+  <h1
+    data-testid="test-title"
+  >
+    Hey! I am Jenn.
+  </h1>
+  <div>
+    My first app using React
+  </div>
+  <p>
+    {"main":"Jenn"}
+  </p>
+  <p>
+    Hey! I am a function!
+  </p>
+  <p>
+    Hey! I am Jenn.
+  </p>
+  <p>
+    3
+  </p>
+  <p>
+    Jeeeenn
+  </p>
+</div>
+`;
