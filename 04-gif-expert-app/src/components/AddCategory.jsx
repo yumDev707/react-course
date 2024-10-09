@@ -2,10 +2,10 @@ import { useState } from "react";
 
 export const AddCategory = ({onNewCategory}) => {
 
-    const [inputValue, setinputValue] = useState('');
+    const [inputValue, setInputValue] = useState('');
 
     const onInputChange = ({target}) => {   //Desestructuramos del event, que viene por defecto sin necesidad de pasarlo por parámetro.
-        setinputValue(target.value);
+        setInputValue(target.value);
     }
 
     const onSubmit = (event) => {
@@ -13,7 +13,7 @@ export const AddCategory = ({onNewCategory}) => {
         const newInputValue = inputValue.trim();
         if(newInputValue.length <= 1) return;   //Comprobación de que se ha escrito algo en el input.
         onNewCategory(newInputValue);
-        setinputValue('');  //Vaciamos el input.
+        setInputValue('');  //Vaciamos el input.
     }
 
   return (
