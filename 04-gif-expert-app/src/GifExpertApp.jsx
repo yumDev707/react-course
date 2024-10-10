@@ -1,7 +1,6 @@
 //Funcional component.
 import {useState} from 'react';
-import {AddCategory} from './components/AddCategory';
-import { GifGrid } from './components/GifGrid';
+import {AddCategory, GifGrid} from './components/index';    //No sería necesario incluir index, porque por defecto ya busca esa ruta.
 
 export const GifExpertApp = () => {
 
