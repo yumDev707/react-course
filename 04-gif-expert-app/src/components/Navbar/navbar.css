@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(199, 134, 188);
+    border-bottom: 2px solid rgb(143, 67, 130);
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: rgb(143, 67, 130);
+  }
+  

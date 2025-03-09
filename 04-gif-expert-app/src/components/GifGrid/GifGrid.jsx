@@ -1,6 +1,7 @@
 import {GifItem} from './GifItem';
-import { useFetchGifs } from "../hooks/useFetchGifs";
+import { useFetchGifs } from "@hooks/useFetchGifs";
 import PropTypes from 'prop-types';
+import './gifGrid.css';
 
 export const GifGrid = ({category}) => {
   const {images, isLoading} = useFetchGifs(category); //Custom hook.

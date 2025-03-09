@@ -1,5 +1,7 @@
 //Archivo de barril.
 
-export * from './AddCategory';
-export * from './GifGrid';
-export * from './GifItem';
+export * from './Category/AddCategory';
+export * from './GifGrid/GifGrid';
+export * from './GifGrid/GifItem';
+export * from './Navbar/Navbar';
+export * from './About/AboutPage';

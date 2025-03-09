@@ -1,6 +1,6 @@
 //Funcional component.
 import {useState} from 'react';
-import {AddCategory, GifGrid} from './components/index';    //No sería necesario incluir index, porque por defecto ya busca esa ruta.
+import {AddCategory, GifGrid, Navbar} from './components/index';
 
 export const GifExpertApp = () => {
 
@@ -13,7 +13,7 @@ export const GifExpertApp = () => {
 
     return(
         <>
-            <h1>GifExpertApp</h1>
+            <Navbar />
 
             <AddCategory 
                 onNewCategory={onAddCategory}

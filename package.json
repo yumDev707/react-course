@@ -5,6 +5,7 @@
     "@types/jest": "^29.5.13"
   },
   "dependencies": {
-    "@types/react-native": "^0.72.8"
+    "@types/react-native": "^0.72.8",
+    "react-router-dom": "^7.3.0"
   }
 }
